@@ -2,8 +2,8 @@
 @media (min-width: 600px) {
     body{
         display: flex;
-        flex-direction: row;
-        gap: 10%;
+        flex-direction: column;
+        /* gap: 10%; */
     
         height: 100vw;
         overflow: hidden; 
@@ -12,7 +12,12 @@
     .slideshow-container {
         width: 90%; /* 화면의 2/3을 차지하도록 설정 */
         overflow: hidden;
-        position: relative;
+        /* position: relative; */
+    }
+
+    .slideshow-container > div {
+        display: flex;
+        flex-direction: row;
     }
     
     .slide {
@@ -26,18 +31,19 @@
     }
     
     .slide img {
-        width: 100%;
+        width: 70vw;
         height: auto;
     }
     
     .textbox {
-        position: absolute;
+        width: 30vw;
+        /* position: absolute;
+        left: 10px;
+        top: 10px; */
         font-size: 12px;
-        bottom: -30px;
-        /* bottom: 30px;
-        left: 20px;
-        background-color: white;
-        padding: 10px; */
+        background-color: rgba(255, 255, 255, 0.95); /* 알파 값(0에서 1 사이)을 조절하여 투명도를 지정합니다. */
+        padding: 10px;
+        z-index: 999;
     }
 }
 
