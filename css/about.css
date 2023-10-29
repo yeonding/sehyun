@@ -1,21 +1,35 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
 
-.aboutText{
-    display: flex;
-    padding-top: 200px;
-    gap: 100px;
-    justify-content: center;
+.aboutContainer {
+    /* display: flex; */
+    flex-direction: column-reverse;
+    /* padding-top: 150px; */
+    /* gap: 100px; */
+    /* justify-content: center; */
 }
 
-.name{
+.aboutTxt {
+    position: absolute;
+    bottom: 40px;
+}
+
+.aboutTxt>ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.name {
     font-weight: 600;
 }
 
-.aboutImg{
-    width: auto;
-    height: 40%;
+.aboutImg {
+    padding-left: 40px;
+    padding-top: 50px;
+    width: 60vw;
+    height: auto;
 }
 
-.email{
+.email {
     font-size: 14px;
 }

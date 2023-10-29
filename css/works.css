@@ -1,0 +1,14 @@
+
+.worksTag > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.category.selected{
+    color: palevioletred;
+}
+
+.worksRecord{
+    font-size: 14px;
+}
