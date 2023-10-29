@@ -1,9 +1,5 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
 
-img{
-    width: 400px;
-}
-
 .aboutText{
     display: flex;
     padding-top: 200px;
@@ -13,4 +9,13 @@ img{
 
 .name{
     font-weight: 600;
+}
+
+.aboutImg{
+    width: auto;
+    height: 40%;
+}
+
+.email{
+    font-size: 14px;
 }
