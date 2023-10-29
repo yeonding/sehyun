@@ -5,8 +5,10 @@ img{
 }
 
 .aboutText{
-    
+    display: flex;
     padding-top: 200px;
+    gap: 100px;
+    justify-content: center;
 }
 
 .name{
