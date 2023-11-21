@@ -1,6 +1,6 @@
 
 @media (min-width: 600px) {
-    body{
+    .indexBody{
         display: flex;
         flex-direction: column;
         /* gap: 10%; */
