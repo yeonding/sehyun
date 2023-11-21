@@ -1,4 +1,12 @@
 
+body{
+    overflow: visible;
+}
+
+img{
+    width: 100%;
+}
+
 .worksTag > ul{
     display: flex;
     flex-direction: row;
@@ -6,9 +14,33 @@
 }
 
 .category.selected{
-    color: palevioletred;
+    color: skyblue;
+}
+
+.categoryList > li:hover{
+    color: skyblue;
 }
 
 .worksRecord{
     font-size: 14px;
+}
+
+.worksRecord > li >a:hover{
+    color: skyblue;
+}
+
+.worksBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.worksText{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+    width: 50%;
+    font-size: 12px;
+    letter-spacing: 0.2px;
 }

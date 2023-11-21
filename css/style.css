@@ -5,6 +5,9 @@
 
 body{
     font-family: 'Pretendard-Regular';
+    cursor: pointer;
+    font-size: 13px;
+
 }
 
 li{
@@ -29,5 +32,9 @@ header > ul {
 }
 
 header > ul > li > a:hover{
-    color: palevioletred;
+    color: skyblue;
+}
+
+.style-bold {
+    font-weight: 600;
 }
